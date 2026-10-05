@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial;
     background-color: #f2f2f2;
+    color: #222;
 }
 
 header {
@@ -79,11 +80,12 @@ select {
 
 .aparecer {
     background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-#resultado {
-    margin-top: 20px;
-    padding: 10px;
+.escondido {
+    display: none;
 }
 
 footer {
@@ -110,5 +112,6 @@ footer {
 
     nav a {
         display: block;
+        margin: 10px;
     }
 }
