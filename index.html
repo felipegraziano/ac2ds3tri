@@ -6,6 +6,7 @@
     <title>Pizza do Bairro</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -32,26 +33,26 @@
 
             <div id="pizzas">
 
-                <div class="pizza">
+                <article class="pizza">
                     <h3>Calabresa</h3>
                     <p>Molho, queijo, calabresa e cebola.</p>
                     <p>R$ 35,00</p>
                     <button id="calabresa">Escolher</button>
-                </div>
+                </article>
 
-                <div class="pizza">
+                <article class="pizza">
                     <h3>Frango com Catupiry</h3>
                     <p>Molho, queijo, frango e catupiry.</p>
                     <p>R$ 40,00</p>
                     <button id="frango">Escolher</button>
-                </div>
+                </article>
 
-                <div class="pizza">
+                <article class="pizza">
                     <h3>Margherita</h3>
                     <p>Molho, queijo, tomate e manjericão.</p>
                     <p>R$ 38,00</p>
                     <button id="margherita">Escolher</button>
-                </div>
+                </article>
 
             </div>
         </section>
@@ -73,4 +74,28 @@
                 </select>
 
                 <label for="quantidade">Quantidade:</label>
-                <input type="number" id="quantidade" min="1" value="1">
+                <input type="number" id="quantidade" min="1" value="1" required>
+
+                <button type="submit">Fazer pedido</button>
+
+            </form>
+
+            <div id="resultado"></div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Telefone: (11) 95706-9657</p>
+            <p>Instagram: @pizzadobairro</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Pizza do Bairro - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
